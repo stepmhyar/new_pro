@@ -493,7 +493,7 @@ export default class Analysis extends Component {
                   <TimelineChart
                     height={400}
                     data={offlineChartData}
-                    titleMap={{ y1: '客流量11111111111111111', y2: '支付笔数' }}
+                    titleMap={{ y1: '客流量22', y2: '支付笔数' }}
                   />
                 </div>
               </TabPane>
