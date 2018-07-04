@@ -19,6 +19,8 @@ const avatars = [
   'https://gw.alipayobjects.com/zos/rmsportal/kZzEzemZyKLKFsojXItE.png', // React
   'https://gw.alipayobjects.com/zos/rmsportal/ComBAopevLwENQdKWiIn.png', // Vue
   'https://gw.alipayobjects.com/zos/rmsportal/nxkuOJlFJuAUhzlMTCEe.png', // Webpack
+  'https://gw.alipayobjects.com/zos/rmsportal/e2edsawwwe4ewqwqqqqq.png', // Webpack
+  'https://gw.alipayobjects.com/zos/rmsportal/sdawderrrrrwewewqwqq.png', // Webpack
 ];
 
 const avatars2 = [
