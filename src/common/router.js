@@ -164,6 +164,7 @@ export const getRouterData = app => {
       component: dynamicWrapper(app, [], () => import('../routes/NewPageList/NewPageLast')
       ),
     },
+    //  ssss
     '/user': {
       component: dynamicWrapper(app, [], () => import('../layouts/UserLayout')),
     },
