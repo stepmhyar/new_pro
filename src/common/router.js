@@ -156,6 +156,14 @@ export const getRouterData = app => {
         import('../routes/Exception/triggerException')
       ),
     },
+    '/newPage/first': {
+      component: dynamicWrapper(app, [], () => import('../routes/NewPageList/NewPageOne')
+      ),
+    },
+    '/newPage/last': {
+      component: dynamicWrapper(app, [], () => import('../routes/NewPageList/NewPageLast')
+      ),
+    },
     '/user': {
       component: dynamicWrapper(app, [], () => import('../layouts/UserLayout')),
     },
@@ -176,7 +184,7 @@ export const getRouterData = app => {
   const menuData = getFlatMenuData(getMenuData());
 
   // Route configuration data
-  // eg. {name,authority ...routerConfig }
+  // eg. {name,authority ...routerConfig}
   const routerData = {};
   // The route matches the menu
   Object.keys(routerConfig).forEach(path => {

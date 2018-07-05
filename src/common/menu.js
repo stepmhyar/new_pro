@@ -135,6 +135,21 @@ const menuData = [
     ],
   },
   {
+    name: 'Add New Page',
+    icon: 'table',
+    path: 'newPage',
+    children: [
+      {
+        name: 'firstPage',
+        path: 'first'
+      },
+      {
+        name: 'lastPage',
+        path: 'last'
+      }
+    ]
+  },
+  {
     name: '账户',
     icon: 'user',
     path: 'user',
