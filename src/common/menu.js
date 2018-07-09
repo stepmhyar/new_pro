@@ -128,7 +128,7 @@ const menuData = [
         path: '500',
       },
       {
-        name: '触发异常',
+        name: '触发异常or不异常',
         path: 'trigger',
         hideInMenu: true,
       },
