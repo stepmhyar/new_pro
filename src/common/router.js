@@ -19,6 +19,8 @@ const dynamicWrapper = (app, models, component) => {
     models.forEach(model => {
       if (modelNotExisted(app, model)) {
         // eslint-disable-next-line
+            // eslint-disable-next-line
+                // eslint-disable-next-line
         app.model(require(`../models/${model}`).default);
       }
     });
